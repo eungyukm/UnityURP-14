@@ -1,4 +1,4 @@
-Shader "HLSL/Base04"
+Shader "HLSL/Base05"
 {
     Properties
     {
@@ -10,10 +10,13 @@ Shader "HLSL/Base04"
         // Blend operation 타입이다.
         [Enum(UnityEngine.Rendering.BlendMode)] _SrcBlend("Src Blend", Float) = 1
         [Enum(UnityEngine.Rendering.BlendMode)] _DstBlend("Dst Blend", Float) = 0
+        [Enum(UnityEngine.Rendering.CullMode)] _Cull("Cull Mode", Float) = 1
     }
     SubShader
     {
         Blend [_SrcBlend][_DstBlend]
+        Cull [_Cull]
+        
         Tags 
         {
             // Render Type과 Render Queue를 여기서 결정합니다.
