@@ -25,7 +25,7 @@ Shader "HLSL/Base01"
 
             // #pragma 
             #pragma prefer_hlslcc gles
-            #pragma exculde_renderer d3d11_9x
+            #pragma exclude_renderers d3d11_9x
             #pragma vertex vert
             #pragma fragment frag
 

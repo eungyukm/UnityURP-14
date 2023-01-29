@@ -53,7 +53,7 @@ Shader "HLSL/Base02"
 
             float4 _MainTex_ST;
             Texture2D _MainTex;
-            Texture2D _MainTex02;
+            Texture2D _MainTexure02;
 
             SamplerState sampler_MainTex;
 
@@ -71,7 +71,7 @@ Shader "HLSL/Base02"
             half4 frag(VertexOutput i) : SV_Target
             {
                 float4 col01 = _MainTex.Sample(sampler_MainTex, i.uv);
-                float4 col02 = _MainTex02.Sample(sampler_MainTex, i.uv);
+                float4 col02 = _MainTexure02.Sample(sampler_MainTex, i.uv);
 
                 half4 color = col01 + col02;
                 return color;
