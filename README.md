@@ -23,10 +23,7 @@ Core RP Library 14.0.4
 [12. Toon Shader](https://github.com/eungyukm/UnityURP-14/wiki/12.-Toon-Shader)       
 [13. Cartoon Shader를 만들기 위한 사전 지식](https://github.com/eungyukm/UnityURP-14/wiki/13.-Cartoon-Shader%EB%A5%BC-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%9C%84%ED%95%9C-%EC%82%AC%EC%A0%84-%EC%A7%80%EC%8B%9D)        
 [14. CarToon Shader 제작 과정 Toon 셰이더](https://github.com/eungyukm/UnityURP-14/wiki/14.--CarToon-Shader-%EC%A0%9C%EC%9E%91-%EA%B3%BC%EC%A0%95-Toon-%EC%85%B0%EC%9D%B4%EB%8D%94)     
-
-# Toon Shader
-[01. ToonInput]       
-[02. ToonForwardLit]      
+[15. FowardLit 제작](https://github.com/eungyukm/UnityURP-14/wiki/15.-FowardLit-%EC%A0%9C%EC%9E%91)
 
 # Reference
 [유니티 URP 공식 문서](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/whats-new/urp-whats-new.html)
